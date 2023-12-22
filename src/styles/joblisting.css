@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.job-main {
+    background-image: url("../assets//bg.jpg");
+    background-color: #cccccc;
+    height: 93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-top: -181px; */
+  }
+.job-sub{
+   
+    /* margin: auto; */
+    /* margin-top: 2px; */
+    width:35%;
+    padding: 10px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border-radius: 50px;
+    height: 450px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+}
+
+
+.input-field{
+    width: 300px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight:500;
+}
+
+
+.btn-2{
+   
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 28px;
+
+}
+.btn-2:hover{
+    background-color: black;
+    color: white;
+}
+
+.input-text{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .job-sub{
+        height: 450px;
+        width: 50%;
+    }
+    .input-text{
+        width: 50px;
+        height: 100px;
+    }
+    .input-field{
+        width: 200px;
+    }
+    .btn-2{
+   
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 28px;
+    
+    }
+}
+
